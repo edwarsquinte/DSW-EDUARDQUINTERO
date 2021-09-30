@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .ejemplo{
+            display: grid;
+            background-color: gray;
+            grid-template-areas:'ejemplo-css-grid ejemplo-css-grid ejemplo-css-grid ejemplo-css-grid' 'contenido contenido contenido info' 'widget widget widget2  info' ;
+        }
+        .ejemplo div{
+            background-color: lightcoral;
+            margin: 5px;
+        }
+        .ejemplo-css-grid{
+            grid-area: ejemplo-css-grid;
+        }
+        .contenido{
+            grid-area: contenido;
+        }
+        .info{
+            grid-area: info;
+        }
+        .widget{
+            grid-area: widget;
+        }
+        .widget2{
+            grid-area: widget2;
+        }
+
+
+    </style>
+</head>
+<body>
+    <head>  <h1>Etiquetas semanticas, CSS grid</h1></head>
+    <hr>
+
+    <nav class= "menu"> <h2><Menu>Menu</Menu></h2>
+        <ul>
+            <li>Inicio</li>
+    
+            <li>Temas</li>
+                <ul>
+                    <li> Etiquettas semanticas</li>
+                    <li> CSS grid</li> 
+                </ul>
+    
+            <li>Recursos digitales</li>    
+                <ul>
+                    <li> Recurso 1</li>
+                    <li> Recurso 2</li>
+                </ul>
+    
+            <li>Aprendizaje</li>
+                <ul>
+                    <li> Actividad 1</li>
+                    <li> Actividad 2</li>
+                </ul>
+    
+            <li>Acerca de</li>
+                <ul>
+                    <li> Autor </li>
+                </ul>
+    
+    
+        </ul>
+        </nav>
+    <hr>
+    <main>
+        <section>
+            <h2> Proposito del sitio</h2>
+                <p>
+                    mediante el trasncurso de los dias nos damos cuenta que la tecnologia esta en crecimiento constante, esto nos indica
+                    que los metodos de aprendizaje tambien deben actualizarse, por esto es que las empresas digitales estan creando nuevas
+                    estrategias de aprendizaje
+                </p>
+                <hr>
+            <h2>Etiquetas semanticas</h2>
+            <article>
+                <P>
+                    <img src="img/semanticas.jpg " alt="etiquetas semanticas">
+                    <H4>Etiquetas semanticas = Etiquetas con significado</H4>
+                    <p>un elemento semantico describe claramente lo que significa tanto para el navegador como para el desarrollador</p> 
+                </P>
+            </article>
+
+                 <h3>Ejemplos </h3>
+                    <li> article </li>
+                    <li> details</li>
+                    <li> figcaption</li>
+                    <li> figure</li>
+                    <li> footer</li>
+                    <li> header</li>
+                    <li> main</li>
+                    <li> mark </li>
+                    <li> nav</li>
+                    <li> section</li>
+                    <li> summary</li>
+                    <hr>
+            <h2>CSS grid</h2>
+            
+            <p>
+                <img src="img/css.png" alt="css una gran ayuda">
+                CSS grid es un sistema que nos ayuda a diseñar y crear paginas web mediante columnas y filas,
+                 de una manera mucho mas organizada y facil para el desarrollador y cliente 
+            </p>
+            <p>
+                Botón-Fernández, M., Rodríguez-Pascual, M., Vega-Rodríguez, M. A., Prieto-Castrillo, F., & Mayo-García, R. (2015). A comparative analysis of adaptive solutions for grid environments. International Journal of Parallel Programming, 43(5), 786-811
+            </p>
+            <div class="ejemplo">
+                <div class="ejemplo-css-grid">ejemplo-css-grid</div>
+                <div class="contenido">contenido</div>
+                <div class="info">info</div>
+                <div class="widget">widget</div>
+                <div class="widget2">widget2</div>
+
+            </div>
+                 
+        </section>
+    </main>
+    <hr>
+    <h2>Mi Mockup</h2>
+    <img src="img/mockup.PNG" alt="mi mockup">
+    <hr>
+    <footer>
+        <p>correo:  edwarsquinte@gmail.com</p>
+        <p>skipe:  edwarjosequintero</p>
+        <p>fecha de actualizacion : 30-sep-2021</p>
+    </footer>
+</body>
+</html>
